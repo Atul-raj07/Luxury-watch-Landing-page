@@ -1,0 +1,100 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: gilroy;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1638538379683-5274b1f6534e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    background-position: top 60%;
+    /* background-position: right 10%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    background: transparent;
+    height: 6.5vw;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(161, 161, 161);
+    background: transparent;
+    padding: 5px 10px;
+    height: 100%;
+    width: 6.5vw;
+    border-bottom:none ;
+    border-top:none ;
+}
+.menu-icon{
+    width: 6.5vw;
+}
+.new-arrivals{
+    border: none;
+    width: 7vw;
+}
+.brand-logo {
+    flex-grow: 1;
+    text-align: center;
+}
+#socialndcontent{
+    display: flex;
+    height: calc(100% - 6.5vw);
+
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-icons {
+    width: 6.5vw; /* Same width as menu icon */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw 0vw;
+    border-right:1px solid rgb(161, 161, 161);
+    height: 100%;
+}
+
+.social-icon {
+    margin: 5px 0; 
+}
+.content{
+    width: 35%;
+}
+.content h4{
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: end;
+    padding-right: 2vw;
+}
+.content p{
+    font-size: 1vw;
+    font-weight: 200;
+    text-align: start;
+    margin-left: 1vw;
+    /* margin-top: 5vw; */
+    padding-top: 1vw;
+    width: 15vw;
+}
+#circle{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    height: 2.5vw;
+    width: 2.5vw;
+    background-color: rgb(29, 65, 183);
+    border-radius: 50%;
+}
